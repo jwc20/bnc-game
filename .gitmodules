@@ -1,0 +1,8 @@
+[submodule "bncapi"]
+	path = bncapi
+	url = git@github.com:jwc20/bncapi.git
+	branch = submodule
+[submodule "bnc-client"]
+	path = bnc-client
+	url = git@github.com:jwc20/bnc-client.git
+	branch = submodule
