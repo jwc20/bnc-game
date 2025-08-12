@@ -25,6 +25,18 @@ Co-op Mode:
 Battle Mode:
 ![CleanShot 2025-08-12 at 17 22 45](https://github.com/user-attachments/assets/dbcb2ac6-ce83-4a46-a8e5-f1f8a884bed2)
 
+
+
+
+## Play
+
+Join a room and number a number combination
+
+## Game Mode
+
+1. Co-op: guess the code with other players
+2. Battle: race with other players to win
+
 ---
 
 ## Installation
