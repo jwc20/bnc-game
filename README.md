@@ -1,4 +1,4 @@
-![CleanShot 2025-08-13 at 07 08 51](https://github.com/user-attachments/assets/a9f303f1-0be6-4e4a-bb5c-a07ea05c5833)# Benjamin and Charlotte
+# Benjamin and Charlotte
 
 **Sept. 2025 Cohort Submission**
 
@@ -12,7 +12,7 @@ Docs: https://jwc20.github.io/bnc-docs/
  ----------------------------------------
         \   ^__^
          \  (oo)\_________
-            (__)\Charlotte)\/\
+            (__)\  Char   )\/\
                 ||-----w |
                 ||      ||
 ```
@@ -21,7 +21,6 @@ Docs: https://jwc20.github.io/bnc-docs/
 
 Co-op Mode:
 ![CleanShot 2025-08-13 at 07 08 51](https://github.com/user-attachments/assets/c501155e-e6f4-470f-ba8d-35458daf3968)
-
 
 Battle Mode:
 ![CleanShot 2025-08-12 at 17 22 45](https://github.com/user-attachments/assets/dbcb2ac6-ce83-4a46-a8e5-f1f8a884bed2)
