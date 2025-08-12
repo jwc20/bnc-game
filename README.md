@@ -1,4 +1,4 @@
-# bnc-game
+# Benjamin and Charlotte
 
 **Sept. 2025 Cohort Submission**
 
@@ -20,7 +20,7 @@ Docs: https://jwc20.github.io/bnc-docs/
 ---
 
 Co-op Mode:
-![CleanShot 2025-08-13 at 06 14 48](https://github.com/user-attachments/assets/22d0d1b0-50e6-417b-b0e8-6222e58632b2)
+![CleanShot 2025-08-13 at 07 05 48](https://github.com/user-attachments/assets/32633b58-de4b-442a-baf5-1639d6b40160)
 
 Battle Mode:
 ![CleanShot 2025-08-12 at 17 22 45](https://github.com/user-attachments/assets/dbcb2ac6-ce83-4a46-a8e5-f1f8a884bed2)
