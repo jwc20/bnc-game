@@ -8,9 +8,15 @@ Clone this repo and run:
 git submodule update --init --recursive
 ```
 
-Two options to start the project: either using the startup script or not
+Here are two ways to start the project:
 
-### With Docker
+**Option 1: With startup script**
+Run the provided startup script to initialize and launch the project automatically.
+
+**Option 2: Manual start**
+Start the project manually without using the startup script.
+
+### Option 1
 
 ```bash
 # start deployment in local
@@ -29,7 +35,7 @@ chmod +x shutdown.sh
 ./shutdown.sh
 ```
 
-### Without Docker
+### Option 2
 
 #### Start frontend
 
