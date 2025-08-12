@@ -1,6 +1,6 @@
 # bnc-game
 
-DEMO: https://bnc-client-psi.vercel.app/lobby
+DEMO: https://bnc-client-psi.vercel.app
 
 ## Installation
 
