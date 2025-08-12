@@ -1,5 +1,7 @@
 # bnc-game
 
+DEMO: https://bnc-client-psi.vercel.app/lobby
+
 ## Installation
 
 Clone this repo and run:
