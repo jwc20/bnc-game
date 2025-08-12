@@ -2,6 +2,12 @@
 
 ## Installation
 
+Clone this repo and run:
+
+```bash
+git submodule update --init --recursive
+```
+
 Two options to start the project: either using the startup script or not
 
 ### With Docker
@@ -27,7 +33,7 @@ chmod +x shutdown.sh
 
 #### Start frontend
 
-Open a terminal and execute:
+Open a terminal and run:
 
 ```bash
 cd bnc-client
@@ -36,7 +42,7 @@ yarn dev
 
 #### Start backend
 
-Open another terminal and execute:
+Open another terminal and run:
 
 ```bash
 cd bncapi
