@@ -1,5 +1,7 @@
 # bnc-game
 
+**Sept. 2025 Cohort Submission**
+
 DEMO: https://bnc-client-psi.vercel.app
 
 ```bash
