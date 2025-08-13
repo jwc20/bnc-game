@@ -2,8 +2,20 @@
 
 **Sept. 2025 Cohort Submission**
 
+Online Multiplayer code guessing game. 
+
+---
+
 Demo: https://bnc-client-psi.vercel.app
+
 Docs: https://jwc20.github.io/bnc-docs/
+
+Mono-repo: https://github.com/jwc20/bnc-game
+
+FE: https://github.com/jwc20/bnc-client
+
+BE: https://github.com/jwc20/bncapi
+
 
 ```bash
  ________________________________________
@@ -19,23 +31,34 @@ Docs: https://jwc20.github.io/bnc-docs/
 
 ---
 
-Co-op Mode:
-![CleanShot 2025-08-13 at 07 08 51](https://github.com/user-attachments/assets/c501155e-e6f4-470f-ba8d-35458daf3968)
-
-Battle Mode:
-![CleanShot 2025-08-12 at 17 22 45](https://github.com/user-attachments/assets/dbcb2ac6-ce83-4a46-a8e5-f1f8a884bed2)
-
-
-
-
 ## Play
 
-Join a room and number a number combination
+```bash
+1. Login or signup
+2. Join or create a room
+3. Play the game but inputting numbers inside the code input
+```
+
+<img src="https://github.com/user-attachments/assets/82b31f80-5987-4169-a217-b8c65acf6387" alt="CleanShot 2025-08-13 at 10 51 01@2x" width="40%">
+
 
 ## Game Mode
 
 1. Co-op: guess the code with other players
 2. Battle: race with other players to win
+
+
+Co-op Mode:
+
+<img src="https://github.com/user-attachments/assets/c501155e-e6f4-470f-ba8d-35458daf3968" alt="CleanShot 2025-08-13 at 07 08 51" width="20%">
+
+
+
+Battle Mode:
+
+<img src="https://github.com/user-attachments/assets/dbcb2ac6-ce83-4a46-a8e5-f1f8a884bed2" alt="CleanShot 2025-08-12 at 17 22 45" width="40%">
+
+
 
 ---
 
@@ -86,6 +109,8 @@ Open a terminal and run:
 
 ```bash
 cd bnc-client
+
+yarn install
 yarn dev
 ```
 
