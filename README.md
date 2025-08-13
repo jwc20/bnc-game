@@ -8,6 +8,8 @@ Online Multiplayer code guessing game.
 
 Demo: https://bnc-client-psi.vercel.app
 
+Game logic: https://github.com/jwc20/bncpy
+
 Docs: https://jwc20.github.io/bnc-docs/
 
 Mono-repo: https://github.com/jwc20/bnc-game
