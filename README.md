@@ -76,9 +76,11 @@ Here are two ways to start the project:
 
 **Option 1: With startup script**
 Run the provided startup script to initialize and launch the project automatically.
+If you were to make changes to code while using Option 1, you need to restart the docker containers for the changes to take effect. Therefore Option 2 should be used in development.
 
 **Option 2: Manual start**
 Start the project manually without using the startup script.
+
 
 ---
 
