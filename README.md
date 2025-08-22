@@ -38,7 +38,7 @@ BE: https://github.com/jwc20/bncapi
 ```bash
 1. Login or signup
 2. Join or create a room
-3. Play the game but inputting numbers inside the code input
+3. Play the game by inputting numbers inside the code input
 ```
 
 <img src="https://github.com/user-attachments/assets/82b31f80-5987-4169-a217-b8c65acf6387" alt="CleanShot 2025-08-13 at 10 51 01@2x" width="40%">
