@@ -1,7 +1,5 @@
 # Benjamin and Charlotte
 
-**Sept. 2025 Cohort Submission**
-
 Online Multiplayer code guessing game. 
 
 ---
