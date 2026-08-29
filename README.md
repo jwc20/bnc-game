@@ -1,21 +1,22 @@
 # Benjamin and Charlotte
 
-Online Multiplayer code guessing game. 
+Demo: <https://bnc.siliconvalleytrail.xyz/>
+
+Online Multiplayer code guessing game.
 
 ---
 
-Demo: https://bnc-client-psi.vercel.app
+Backup Demo Link: <https://bnc-client-psi.vercel.app>
 
-Game logic: https://github.com/jwc20/bncpy
+Game logic: <https://github.com/jwc20/bncpy>
 
-Docs: https://jwc20.github.io/bnc-docs/
+Docs: <https://jwc20.github.io/bnc-docs/>
 
-Mono-repo: https://github.com/jwc20/bnc-game
+Mono-repo: <https://github.com/jwc20/bnc-game>
 
-FE: https://github.com/jwc20/bnc-client
+FE: <https://github.com/jwc20/bnc-client>
 
-BE: https://github.com/jwc20/bncapi
-
+BE: <https://github.com/jwc20/bncapi>
 
 ```bash
             ________________________________________
@@ -26,7 +27,7 @@ BE: https://github.com/jwc20/bncapi
                         \            /
                        ^__^        ^__^
              _________/(oo)        (oo)\_________
-         \/\(   Ben   /(__) 	   (__)\  Char   )\/\
+         \/\(   Ben   /(__)        (__)\  Char   )\/\
             ||------||                 ||-----w |
             ||      ||                 ||      ||
 ```
@@ -43,24 +44,18 @@ BE: https://github.com/jwc20/bncapi
 
 <img src="https://github.com/user-attachments/assets/82b31f80-5987-4169-a217-b8c65acf6387" alt="CleanShot 2025-08-13 at 10 51 01@2x" width="40%">
 
-
 ## Game Mode
 
 1. Co-op: guess the code with other players
 2. Battle: race with other players to win
 
-
 Co-op Mode:
 
 <img src="https://github.com/user-attachments/assets/c501155e-e6f4-470f-ba8d-35458daf3968" alt="CleanShot 2025-08-13 at 07 08 51" width="20%">
 
-
-
 Battle Mode:
 
 <img src="https://github.com/user-attachments/assets/dbcb2ac6-ce83-4a46-a8e5-f1f8a884bed2" alt="CleanShot 2025-08-12 at 17 22 45" width="40%">
-
-
 
 ---
 
@@ -80,7 +75,6 @@ If you were to make changes to code while using Option 1, you need to restart th
 
 **Option 2: Manual start**
 Start the project manually without using the startup script.
-
 
 ---
 
