@@ -31,7 +31,7 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
       - REDIS_CHANNEL_LAYER_URL=redis://redis:6379
-      - PUBLIC_API_URL=https://bnc.siliconvalleytrail.xyz/api
+      - PUBLIC_API_URL=${PUBLIC_API_URL:-https://bnc.siliconvalleytrail.xyz/api}
       - SECRET_KEY=${SECRET_KEY:-my_precious_secret_key_for_local_prod}
     depends_on:
       - redis
