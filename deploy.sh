@@ -8,6 +8,16 @@ echo "Deploying $DOMAIN..."
 
 git pull origin main
 
+echo "Updating Git submodules..."
+git config url.https://github.com/.insteadOf git@github.com:
+git submodule sync --recursive
+git submodule update --init --recursive --remote
+
+if [ ! -f bncapi/Dockerfile ] || [ ! -f bnc-client/Dockerfile ]; then
+    echo "Missing bncapi/Dockerfile or bnc-client/Dockerfile. Check that submodules cloned correctly."
+    exit 1
+fi
+
 echo "Ensuring SQLite data directory exists..."
 mkdir -p ./data
 chmod 777 ./data
