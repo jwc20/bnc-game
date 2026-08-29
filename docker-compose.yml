@@ -1,0 +1,40 @@
+services:
+  bnc-client:
+    build:
+      context: ./bnc-client
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-https://bnc.siliconvalleytrail.xyz}
+        VITE_WS_URL: ${VITE_WS_URL:-wss://bnc.siliconvalleytrail.xyz}
+        VITE_API_KEY: ${VITE_API_KEY:-my_precious_secret_key_for_local_prod}
+    container_name: bnc-client
+    restart: unless-stopped
+    ports:
+      - "8080:5173"
+    depends_on:
+      - bncapi
+
+  bncapi:
+    build:
+      context: ./bncapi
+      dockerfile: Dockerfile
+    container_name: bncapi
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DEBUG=False
+      - DJANGO_SETTINGS_MODULE=bncapi.settings
+      - DB_PATH=/app/data/bnc.db
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_CHANNEL_LAYER_URL=redis://redis:6379
+      - PUBLIC_API_URL=https://bnc.siliconvalleytrail.xyz/api
+      - SECRET_KEY=${SECRET_KEY:-my_precious_secret_key_for_local_prod}
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    container_name: bnc-redis
+    restart: unless-stopped

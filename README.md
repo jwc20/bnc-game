@@ -93,7 +93,7 @@ chmod +x deploy.sh
 ```
 
 ```bash
-# setup and migrate postgres database
+# setup and migrate sqlite database
 ./bncapi/setup_dev_db.sh
 ```
 
@@ -128,12 +128,6 @@ cd bncapi
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-```
-
-#### Start Postgres
-
-```bash
-docker pull postgres:17-alpine
 ```
 
 #### Start Redis
